@@ -5,7 +5,7 @@ type MyProps = {
     message: string;
 };
 
-export class AboutPage extends React.Component<MyProps> {
+export default class AboutPage extends React.Component<MyProps> {
     
     render() {
         return (
